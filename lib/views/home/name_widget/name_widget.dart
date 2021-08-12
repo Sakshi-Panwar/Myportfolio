@@ -13,7 +13,7 @@ class NameWidget extends StatelessWidget {
     double c_width = MediaQuery.of(context).size.width * 0.5;
     double c_height = MediaQuery.of(context).size.height * 0.55;
 
-    final SNameWidget = "sakshi\nPanwar."
+    final SNameWidget = "Sakshi\nPanwar"
         .text
         .white
         .xl6
@@ -141,8 +141,6 @@ class SocialAccounts extends StatelessWidget {
           .make()
           .showCursorOnHover
           .moveUpOnHover,
-    
-     
     ].hStack();
   }
 }

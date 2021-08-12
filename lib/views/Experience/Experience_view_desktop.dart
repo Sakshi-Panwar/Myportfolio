@@ -24,7 +24,7 @@ class ExperienceViewDesktop extends StatelessWidget {
     return Container(
       // color: Color(0xff0A192F),
       width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height*0.88,
+      height: MediaQuery.of(context).size.height * 0.88,
       child: Stack(
         fit: StackFit.expand,
         children: [
@@ -37,7 +37,7 @@ class ExperienceViewDesktop extends StatelessWidget {
           //   ),
           // ),
           Padding(
-            padding: const EdgeInsets.only(top:30),
+            padding: const EdgeInsets.only(top: 30),
             child: ExperiencesDesktop(),
           ),
           Column(
@@ -61,7 +61,6 @@ class ExperienceViewDesktop extends StatelessWidget {
   }
 }
 
-
 class ExperiencePictureWidget extends StatelessWidget {
   const ExperiencePictureWidget({
     Key key,
@@ -77,7 +76,7 @@ class ExperiencePictureWidget extends StatelessWidget {
           height: MediaQuery.of(context).size.height * 0.7,
           width: MediaQuery.of(context).size.width * 0.30,
           child: Image(
-                     // fit: BoxFit.cover,
+            // fit: BoxFit.cover,
             image: AssetImage("assets/Programmer.png"),
           ),
         ),

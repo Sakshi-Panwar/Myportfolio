@@ -55,22 +55,24 @@ class Projects extends StatelessWidget {
     return Column(children: [
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Catch-Me-Portfolio");
+          method.launchURL(
+              "https://github.com/anurag-tekale/Mec_Management_AppUI");
         },
         link: () {
-          method.launchURL("https://satyu26.github.io/Catch-Me-Portfolio/");
+          method.launchURL(
+              "https://github.com/anurag-tekale/Mec_Management_AppUI");
         },
-        projectname: 'Catch Me Portfolio',
+        projectname: 'College Management App',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Portfolio-Code-Flutter");
+          method.launchURL("https://github.com/Sakshi-Panwar/Myportfolio");
         },
         link: () {
-          method.launchURL("https://sakshigoyal.codes");
+          method.launchURL("https://github.com/Sakshi-Panwar/Myportfolio");
         },
         projectname: 'Portfolio',
       ),
@@ -79,38 +81,38 @@ class Projects extends StatelessWidget {
       ),
       MobileProject(
         ontab: () {
-          method.launchURL(
-              "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+          method.launchURL("");
         },
         link: () {
-          method.launchURL(
-              "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+          method.launchURL("");
         },
-        projectname: 'Hand Gesture Classifier',
+        projectname: 'Thermodynamic Project',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Flash-Type");
+          method.launchURL(
+              "https://github.com/Sakshi-Panwar/Covid-resources-management");
         },
         link: () {
-          method.launchURL("https://satyu26.github.io/Flash-Type/");
+          method.launchURL(
+              "https://github.com/Sakshi-Panwar/Covid-resources-management");
         },
-        projectname: 'Flash Type',
+        projectname: 'Covid Resources Management',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/WhatImage");
+          method.launchURL("https://devpost.com/software/connect-0qgxr8");
         },
         link: () {
-          method.launchURL("https://github.com/SatYu26/WhatImage");
+          method.launchURL("https://devpost.com/software/connect-0qgxr8");
         },
-        projectname: 'What Image',
+        projectname: 'RU-Hackathon Connect',
       ),
       SizedBox(
         height: size.height * 0.07,
@@ -119,7 +121,7 @@ class Projects extends StatelessWidget {
         maxWidth: 150,
         child: RaisedButton(
           onPressed: () {
-            launch("https://github.com/SatYu26");
+            launch("https://github.com/Sakshi-Panwar");
           },
           hoverColor: Vx.purple700,
           shape: Vx.roundedSm,

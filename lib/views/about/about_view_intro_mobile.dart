@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:sakshi_website/widgets/custom_text/CustomText.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-
 class IntroductionAboutMobile extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width*0.6;
-    double c_height = MediaQuery.of(context).size.height*2.55;
+    double c_width = MediaQuery.of(context).size.width * 0.6;
+    double c_height = MediaQuery.of(context).size.height * 2.55;
     return Container(
       padding: const EdgeInsets.fromLTRB(10, 0, 5, 0),
       width: c_width,
@@ -54,28 +52,23 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final AboutintroWidget ="sakshi is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
-        "Despite being from a non-technical branch, sakshi is highly interested and skilled in Computer Science"
-        " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
-        "to improving himself to succeed in the future.\n\n"
-        "He also feels uncomfortable talking about himself in the third person ;)\n"
-        "Currently, sakshi is learning React.js and to make unique Websites."
-        "He is highly skilled in making Android, Web, and Desktop apps using Flutter and Dart. He is also good at Machine Learning and Deep Learning."
-        "He also believes in giving back to the community; therefore, he regularly makes Open Source contributions and has been part of open source events like Girl Script Summer of Code and many renowned Hackathons across the Globe."
-        "He is also interested in Competetive Coding is trying to improve his skills every day.\n"
-
-        "sakshi is also part of various organizations such as Developer Student Clubs (DSC) SRM, and Microsoft Learn Student Ambassador and has made healthy contributions to the organizations and the community."
-
-        "sakshi has the vision to improve himself every day and achieve great success with sheer hard work and dedication in the near future.\n\n"
-
-        "Do Cheer up for sakshi...!"
+    final AboutintroWidget = "Sakshi is a 3rd-year student at Mahindra University pursuing the Computer Science and Engineering branch. "
+            "Sakshi is highly interested and working hard to upskill her in Computer Science"
+            " and is constantly making her way to new concepts and grab knowledge every day through hard work and dedication "
+            "to improve herself to succeed in the future.\n\n"
+            "She is also art enthusiast who like to play around colours and designs ;)\n"
+            "Currently, Sakshi is learning Machine Learning & Artificial Intelligence and working on Object Dectection project. "
+            "She is skilled in making Android, Web, and Desktop apps using Flutter and Dart. She is also grasping an understanding of arduino and other electronic platforms."
+            " She also believes in giving back to the community; therefore, she is preparing to make Open Source contributions by participating in Google Summer of Code and many renowned Hackathons across the Globe."
+            " She is also interested in Competetive Coding is trying to improve his skills through hackerrank and other platforms.\n"
+            " Sakshi is also part of various clubs such as Enigma(CSE) and Zenith(Science) club ."
+            " Sakshi has extensive experience working both alone and as part of a team on often time-sensitive, challenging web development projects that require outstanding creative and technical capabilities and the ability to ensure all work is optimized across a wide range of platforms. She takes her work seriously and will ensure that her skills are uptodate. If given opportunity, She assures she will fit into the team quickly and give best possible output.”\n\n"
+            "Developing ways of success....Sakshi!"
         .text
         .gray500
         .sm
         .make()
-        .w(context.isMobile
-        ? context.screenWidth
-        : context.percentWidth * 40);
+        .w(context.isMobile ? context.screenWidth : context.percentWidth * 40);
     return ListView(
         physics: NeverScrollableScrollPhysics(),
         addAutomaticKeepAlives: true,
@@ -87,48 +80,46 @@ class Introduction extends StatelessWidget {
           ),
           CustomText(
             text:
-            "Here are a few technologies I've been working with recently:\n",
+                "Here are a few technologies I've been working with recently:\n",
             textsize: 16.0,
             color: Color(0xff828DAA),
             fontWeight: FontWeight.w500,
             letterSpacing: 0.75,
-          ),// crossAlignment: CrossAxisAlignment.center,
+          ), // crossAlignment: CrossAxisAlignment.center,
           Container(
-            height: size.height*0.25,
+            height: size.height * 0.25,
             width: size.width,
             //   color: Colors.redAccent,
             child: Row(
               children: [
                 Container(
                   width: size.width * 0.40,
-                  height: size.height*0.45,
+                  height: size.height * 0.45,
                   child: Column(
                     children: [
                       technology(context, "Flutter"),
                       technology(context, "Dart"),
                       technology(context, "Python"),
-                      technology(context, "UI/UX"),
-                      technology(context, "Tensorflow JS"),
+                      technology(context, "UI/UX - Adobe XD"),
+                      technology(context, "C"),
                     ],
                   ),
                 ),
                 Container(
                   width: size.width * 0.40,
-                  height: size.height*0.45,
+                  height: size.height * 0.45,
                   child: Column(
                     children: [
                       technology(context, "React"),
                       technology(context, "JavaScript"),
-                      technology(context, "Open CV"),
-                      technology(context, "ML"),
-                      technology(context, "Node.js"),
+                      technology(context, "Java"),
+                      technology(context, "Machine Learning & AI"),
                     ],
                   ),
                 )
               ],
             ),
           ),
-        ]
-    );
+        ]);
   }
 }

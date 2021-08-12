@@ -71,21 +71,21 @@ class Projects extends StatelessWidget {
           height: size.height * 0.04,
         ),
         FeatureProject(
-          imagePath: "assets/cmP.png",
+          imagePath: "assets/college.png",
           ontab: () {
-            method.launchURL("https://github.com/SatYu26/Catch-Me-Portfolio");
+            method.launchURL(
+                "https://github.com/anurag-tekale/Mec_Management_AppUI");
           },
-          projectDesc: "A simple portfolio Website with some fun.",
-          projectTitle: "Catch Me Portfolio",
-          tech1: "JavaScript",
-          tech2: "CSS",
-          tech3: "HTML",
+          projectDesc: "A simple college management app.",
+          projectTitle: "College Management App",
+          tech1: "Flutter",
+          tech2: "Dart",
+          tech3: "Web Development",
         ),
         FeatureProjectInverted(
           imagePath: "assets/Portfolio.png",
           ontab: () {
-            method
-                .launchURL("https://github.com/SatYu26/Portfolio-Code-Flutter");
+            method.launchURL("https://github.com/Sakshi-Panwar/Myportfolio");
           },
           projectDesc: "My Portfolio website created using Flutter",
           projectTitle: "Portfolio",
@@ -94,46 +94,46 @@ class Projects extends StatelessWidget {
           tech3: "Web Development",
         ),
         FeatureProject(
-          imagePath: "assets/tfjs.png",
+          imagePath: "assets/ac.jpg",
           ontab: () {
-            method.launchURL(
-                "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+            method.launchURL("");
           },
-          projectDesc:
-              "It is a browser based Rock, Paper and Scissor(Hand Gestures) classifier Created Using Tensorflow.js.",
-          projectTitle: "Hand Gesture Classifier",
-          tech1: "JavaScript",
-          tech2: "Tensorflow",
-          tech3: "ML",
+          projectDesc: "Project on Air Conditioning of classrooms ",
+          projectTitle: "Thermodynamic Project",
+          // tech1: "Flutter",
+          // tech2: "Dart",
+          // tech3: "Web Development",
         ),
         FeatureProjectInverted(
-          imagePath: "assets/flash.png",
+          imagePath: "assets/covid.png",
           ontab: () {
-            method.launchURL("https://github.com/SatYu26/Flash-Type");
-          },
-          projectDesc: "A Fully Functioning Typing Speed Checker Website",
-          projectTitle: "Flash Type",
-          tech1: "React",
-          tech2: "JavaScript",
-          tech3: "CSS",
-        ),
-        FeatureProject(
-          imagePath: "assets/wi.png",
-          ontab: () {
-            method.launchURL("https://github.com/SatYu26/WhatImage");
+            method.launchURL(
+                "https://github.com/Sakshi-Panwar/Covid-resources-management");
           },
           projectDesc:
-              "A modern application that can classify images for you and will store the classification history.",
-          projectTitle: "What Image",
-          tech1: "React.js",
-          tech2: "JavaScript",
-          tech3: "Node.js",
+              "Website frontend created using java to find covid related help and resources",
+          projectTitle: "Covid Resources Management",
+          tech1: "Java",
+          // tech2: "Dart",
+          //   tech3: "Web Development",
+        ),
+
+         FeatureProject(
+          imagePath: "assets/ruhack.jpg",
+          ontab: () {
+            method.launchURL("https://devpost.com/software/connect-0qgxr8");
+          },
+          projectDesc: "Website to help people in studying and connect with others",
+          projectTitle: "RU-Hackathon Connect",
+           tech1: "Flutter",
+           tech2: "Dart",
+           tech3: "Web Development",
         ),
         LimitedBox(
           maxWidth: 50,
           child: RaisedButton(
             onPressed: () {
-              launch("https://github.com/SatYu26");
+              launch("https://github.com/Sakshi-Panwar");
             },
             hoverColor: Vx.purple700,
             shape: Vx.roundedSm,

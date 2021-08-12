@@ -67,13 +67,13 @@ class PictureWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
       mobile: Image(
-        image: new AssetImage("assets/BGM.jpeg"),
+        image: new AssetImage(""),
         fit: BoxFit.cover,
         color: Colors.black87.withOpacity(0.7),
         colorBlendMode: BlendMode.darken,
       ),
       desktop: Image(
-        image: new AssetImage("assets/BG.jpeg"),
+        image: new AssetImage(""),
         fit: BoxFit.cover,
         color: Colors.black87.withOpacity(0.7),
         colorBlendMode: BlendMode.darken,
@@ -96,7 +96,7 @@ class Footer extends StatelessWidget {
         width: MediaQuery.of(context).size.width - 100,
         //color: Colors.white,
         child: Text(
-          "Designed & Built by sakshi Goyal 💙 Flutter",
+          "Designed & Built by Sakshi Panwar 💙 Flutter",
           style: TextStyle(
             color: Colors.white.withOpacity(0.4),
             letterSpacing: 1.75,

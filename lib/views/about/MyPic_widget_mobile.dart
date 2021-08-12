@@ -21,7 +21,7 @@ class MyPicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(
-    image: new AssetImage("assets/MyPic.png"),
+    image: new AssetImage("assets/MyPic2.png"),
     height: 150,
     width: 100,
     fit: BoxFit.fitHeight,

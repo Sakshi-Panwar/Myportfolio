@@ -34,7 +34,7 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final introWidget =
-        "I am Your friendly Neighbourhood Developer  and a Learning Enthusiast, who is obsessed with the idea of improving himself and wants a platform to grow and excel.\n"
+        "I am a positive, enthusiastic and competent Web Developer, who has built up a diverse range of skills, qualities, attributes and always trying to adapt to rapidly changing industries.\n"
             .text
             .white
             .xl2
@@ -49,7 +49,7 @@ class Introduction extends StatelessWidget {
         height: 10,
       ),
       CustomText(
-        text: "I build things for the Android and Web.",
+        text: "I build things for the Android and tinker around ML & AI.",
         textsize: 40.0,
         color: Color(0xffCCD6F6).withOpacity(0.6),
         fontWeight: FontWeight.w700,
@@ -85,7 +85,7 @@ class Introduction extends StatelessWidget {
             child: RaisedButton(
               onPressed: () {
                 launch(
-                    "https://drive.google.com/file/d/15KasRRF-dGRDHHxTLptFjMCZBk37zIUe/view?usp=sharing");
+                    "https://drive.google.com/file/d/1Q-b4QOQQslYTR7xUebhOOgjg49aNpzfO/view?usp=sharing");
               },
               hoverColor: Vx.purple700,
               shape: Vx.roundedSm,
