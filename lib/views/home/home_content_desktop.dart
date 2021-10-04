@@ -69,9 +69,9 @@ class Footer extends StatelessWidget {
         child: Text(
           "Designed & Built by Sakshi Panwar 💙 Flutter",
           style: TextStyle(
-            color: Colors.white.withOpacity(0.4),
-            letterSpacing: 1.75,
-            fontSize: 14.0,
+            color: Colors.white.withOpacity(0.5),
+            letterSpacing: 1.5,
+            fontSize: 15.0,
           ),
         ),
       ),
@@ -83,9 +83,9 @@ class Footer extends StatelessWidget {
         child: Text(
           "",
           style: TextStyle(
-            color: Colors.white.withOpacity(0.4),
-            letterSpacing: 1.75,
-            fontSize: 14.0,
+            color: Colors.white.withOpacity(0.5),
+            letterSpacing: 1.5,
+            fontSize: 15.0,
           ),
         ),
       ),
