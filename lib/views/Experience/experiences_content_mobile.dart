@@ -75,7 +75,7 @@ class ExperiencesMobile extends StatelessWidget {
                   height: 6.0,
                 ),
                 Text(
-                  "I work as a Flutter Developer in College Management App with other team memebers.The purpose of this was to facilitate students in organising their schedule and other academis stuff\n",
+                  "I work as a Flutter Developer in College Management App with other team memebers.The purpose of this was to facilitate students in \norganising their schedule and other academis stuff\n",
                   style: TextStyle(
                     fontSize: 13.0,
                     color: Color(0xffCCD6F6).withOpacity(0.5),
